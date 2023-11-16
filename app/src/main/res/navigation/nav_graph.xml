@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/taskMvpFragment">
+
+    <fragment
+        android:id="@+id/taskMvpFragment"
+        android:name="kz.just_code.mvp_mvvm_homework.mvp.TaskMvpFragment"
+        android:label="TaskMvpFragment" />
+    <fragment
+        android:id="@+id/taskMvvmFragment"
+        android:name="kz.just_code.mvp_mvvm_homework.mvvm.TaskMvvmFragment"
+        android:label="TaskMvvmFragment" />
+</navigation>
